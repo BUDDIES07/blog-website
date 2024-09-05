@@ -1,0 +1,22 @@
+input{
+    height: 30px;
+    width: 20vw;
+}
+textarea{
+    height: 40px;
+width: 20vw;
+}
+body{
+    text-align: center;
+}
+button{
+   height: 30px;
+width: 10vw;
+color: black;
+border-radius: 10px;
+}
+button:hover{
+    background-color: cadetblue;
+    color: black;
+    border-radius: 20px;
+}

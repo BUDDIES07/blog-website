@@ -1,0 +1,134 @@
+body{
+    background-color: #F4F4F4;
+}
+*{
+    margin: auto;
+}
+.nav{
+    height: 10.417vw;
+ 
+    cursor: pointer;
+    background-color: #673AB7;
+    display: flex;
+   background-color: #00274D;
+   color: #FFD700;
+}
+.postContainer{
+    width: 60vw;
+align-items: center;
+text-align: center;
+    background-color: #673AB7;
+     margin-top: 20px;
+
+}
+.footer{
+    width: 80vw;
+  background-color:#00274D;
+  color: #E0E0E0;
+
+}
+.left{
+ padding-top: 20px;
+ margin-left: 20px;
+}
+.right{
+display: flex;
+}
+.right h3{
+    margin-left: 70px;
+    color: #FFD700;
+    transition: background-color 0.3s ease;
+}.right h3:hover{
+    color: #FF6F61;
+
+}
+a{
+    text-decoration: none;
+}
+
+
+.footer .bottom h1{
+    margin-left: 20px;
+    font-size: 5vw;
+}
+
+
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .post {
+            background-color: #E0E0E0;
+            margin: 10px 0;
+            padding: 10px;
+            border: 1px solid #E0E0E0;
+            text-align: center; /* Center align text and image */
+        }
+        .postContainer img{
+            width: 20vw; /* Set image width to 80% of the viewport width */
+            height: auto;
+            display: block;
+            margin-top: 10px;
+            margin-left: 200PX;
+        }
+        img {
+            width: 30vw; /* Set image width to 20% of the viewport width */
+            height: auto;
+            display: block;
+            margin: 0 auto 10px; /* Center image and add margin at the bottom */
+            border: 2px solid #FFD700; /* Gold */
+            border-radius: 10px;
+        }
+        .postContainer{
+            text-align: center;
+            align-items: center;
+            width: 60vw;
+        }
+        .post-content {
+            text-align: center; /* Center align text */
+        }
+        .search-container {
+            margin: 20px;
+            text-align: center;
+            align-items: center;
+        }
+        .search-bar {
+            padding: 10px;
+            width: 80vw;
+            max-width: 31.25vw;
+        }
+        .search-button {
+            padding: 10px 20px;
+            margin-left: 10px;
+        }
+        input{
+            text-align: center;
+            font-size: larger;
+            border-radius: 30px;
+            width: 26.042vw;
+            
+        }
+        .search-container button{
+            color: #00274D;
+           font-size: 20px;
+           border-radius: 30px;
+           background-color: #FFD700;
+           transition: background-color 0.3s ease;
+        }
+        .search-container button:hover{
+            background-color: #FF6F61;
+         
+        }
+    nav h3{
+        font-size: 2.5vw;
+        color: #E0E0E0;
+    }
+    nav h1{
+font-size: 3vw;
+    }
+    h3{
+        font-size: 70px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }  
+    p{
+        font-size: 30px;
+    }
